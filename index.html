@@ -1,16 +1,29 @@
-<html lang="id"><head></head><body class="bg-surface text-on-surface font-body antialiased selection:bg-primary-container selection:text-on-primary-container">```html
+<html lang="id">
+
+<head></head>
+
+<body
+    class="bg-surface text-on-surface font-body antialiased selection:bg-primary-container selection:text-on-primary-container">
+    ```html
 
 
 
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Kafe di Madiun | Ueno Coffee</title>
-<meta content="Cari kafe di Madiun untuk WFH atau nongkrong? Ueno Coffee menawarkan suasana Japanese Minimalist, wifi kencang, dan kopi artisan terbaik di Madiun." name="description"/>
-<meta content="Kafe di Madiun, tempat ngopi Madiun, kafe hits Madiun, tempat nongkrong Madiun, kopi enak Madiun, coffee shop Madiun, wifi cepat Madiun, tempat meeting Madiun, harga kopi Madiun, kafe instagramable Madiun" name="keywords"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kafe di Madiun | Ueno Coffee</title>
+    <meta
+        content="Cari kafe di Madiun untuk WFH atau nongkrong? Ueno Coffee menawarkan suasana Japanese Minimalist, wifi kencang, dan kopi artisan terbaik di Madiun."
+        name="description" />
+    <meta
+        content="Kafe di Madiun, tempat ngopi Madiun, kafe hits Madiun, tempat nongkrong Madiun, kopi enak Madiun, coffee shop Madiun, wifi cepat Madiun, tempat meeting Madiun, harga kopi Madiun, kafe instagramable Madiun"
+        name="keywords" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
@@ -79,7 +92,10 @@
             },
         }
     </script>
-<script type="application/ld+json">
+    <script type="application/ld+json">
+=======
+    <script type="application/ld+json">
+>>>>>>> 39c683f (update)
     {
       "@context": "https://schema.org",
       "@type": "CafeOrCoffeeShop",
@@ -100,223 +116,525 @@
       "openingHours": "Mo-Su 09:00-22:00"
     }
     </script>
+    <!-- TopNavBar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#fbf9f5]/70 backdrop-blur-xl transition-all duration-300">
+        <div class="flex justify-between items-center px-8 py-6 max-w-[1440px] mx-auto">
+            <a class="text-2xl font-black tracking-tighter text-primary" href="#">
+                Ueno Coffee
+            </a>
+            <div class="hidden md:flex items-center gap-8 font-headline font-bold tracking-tight text-primary">
+                <a class="text-primary border-b-2 border-primary pb-1" href="#about">Experience</a>
+                <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                    href="#products">Menu</a>
+                <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                    href="#philosophy">Philosophy</a>
+                <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                    href="#location">Locate</a>
+            </div>
+            <div class="flex items-center gap-6">
+                <a class="hidden md:flex items-center justify-center px-6 py-3 bg-primary text-on-primary font-bold tracking-tight rounded hover:opacity-80 transition-opacity duration-300"
+                    href="#location">Visit Us</a>
+                <button class="text-primary hover:opacity-80 transition-opacity duration-300">
+                    <span class="material-symbols-outlined"
+                        style="font-variation-settings: 'FILL' 0;">shopping_bag</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-24 md:pt-48 md:pb-32 px-8 overflow-hidden">
+        <div class="max-w-[1440px] mx-auto grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-6 z-10 flex flex-col gap-8">
+                <div>
+                    <span
+                        class="inline-block text-label-sm uppercase tracking-[0.05em] text-on-surface-variant mb-4 font-bold bg-surface-container-low px-3 py-1 rounded">
+                        Tempat Nongkrong Kafe di Madiun
+                    </span>
+                    <h1
+                        class="text-5xl md:text-[3.5rem] leading-[1.1] font-headline font-extrabold tracking-[-0.02em] text-primary">
+                        Ueno Coffee: Pilihan Kafe di Madiun Terbaik.
+                    </h1>
+                </div>
+                <p class="text-lg md:text-xl text-on-surface-variant font-body leading-relaxed max-w-xl">
+                    Temukan harmoni dan ketenangan di tengah kota. Ueno menawarkan suasana Japanese Minimalist, wifi
+                    kencang, and racikan kopi artisan untuk pengalaman ngopi terbaik di Madiun.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 mt-4">
+                    <a class="inline-flex items-center justify-center px-8 py-4 bg-primary text-on-primary rounded font-bold tracking-tight hover:opacity-80 transition-all shadow-[0_12px_32px_rgba(27,28,26,0.06)]"
+                        href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
+                        Hubungi via WhatsApp
+                    </a>
+                    <a class="inline-flex items-center justify-center px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold tracking-tight hover:bg-surface-variant transition-colors"
+                        href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
+                        Lihat Rute
+                    </a>
+                </div>
+            </div>
+            <div
+                class="md:col-span-6 relative h-[500px] md:h-[700px] rounded overflow-hidden shadow-[0_24px_48px_rgba(27,28,26,0.08)]">
+                <img alt="Fasad depan Ueno Coffee, pilihan kafe di Madiun dengan desain minimalis Jepang"
+                    class="w-full h-full object-cover" src="uenobg.jpeg.jpeg" />
+                <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="py-24 px-8 bg-surface-container-low" id="philosophy">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-8">
+                        Filosofi The Curated Breath.
+                    </h2>
+                    <div class="space-y-6 text-lg text-on-surface-variant">
+                        <p>
+                            Lebih dari sekadar <strong>tempat ngopi Madiun</strong>, Ueno Coffee lahir dari apresiasi
+                            mendalam terhadap ruang dan waktu. Kami merancang setiap sudut kafe kami di Madiun sebagai
+                            tempat untuk jeda sejenak dari hiruk-pikuk.
+                        </p>
+                        <p>
+                            Dikenal sebagai salah satu <strong>kafe hits Madiun</strong>, kami memadukan estetika
+                            minimalis dengan kehangatan khas kota ini. Ruang yang tenang, cahaya alami, dan kopi enak
+                            Madiun menjadi sajian utama kami.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <div class="aspect-[3/4] rounded overflow-hidden bg-surface">
+                            <img alt="Interior tenang kafe di Madiun dengan pencahayaan alami dan desain kayu"
+                                class="w-full h-full object-cover" src="tempat.jpeg.jpeg" />
+                        </div>
+                        <div class="aspect-square rounded overflow-hidden bg-surface">
+                            <img alt="Signature iced matcha dari Ueno, rekomendasi kafe di Madiun"
+                                class="w-full h-full object-cover" src="matcha2.jpeg.jpeg" />
+                        </div>
+                    </div>
+                    <div class="aspect-[3/5] rounded overflow-hidden bg-surface mt-12">
+                        <img alt="Berbagai pilihan minuman artisan di Ueno, kafe di Madiun yang hits"
+                            class="w-full h-full object-cover" src="matcha1.jpeg.jpeg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <section class="py-24 px-8 bg-surface" id="products">
+        <div class="max-w-[1440px] mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-4">Our Signature
+                    Menu</h2>
+                <p class="text-on-surface-variant max-w-2xl mx-auto">Kopi artisan dan pastry pilihan, dikurasi khusus
+                    untuk waktu istirahat terbaik Anda di kafe di Madiun.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group">
+                    <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                        <img alt="Ueno Signature Latte, sajian kopi lembut di kafe di Madiun"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            src="coffee.jpeg.jpeg" />
+                    </div>
+                    <h3 class="text-xl font-bold text-primary">Ueno Signature Latte</h3>
+                    <p class="text-on-surface-variant">Smooth, creamy, and perfectly balanced.</p>
+                </div>
+                <div class="group">
+                    <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                        <img alt="Mesin espresso profesional untuk hasil kopi terbaik di kafe di Madiun"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            src="manualbrew.jpeg.jpeg" />
+                    </div>
+                    <h3 class="text-xl font-bold text-primary">V60 Manual Brew</h3>
+                    <p class="text-on-surface-variant">Highlighting the unique notes of local beans.</p>
+                </div>
+                <div class="group">
+                    <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                        <img alt="Artisan Croissant renyah, pasangan kopi sempurna di kafe di Madiun"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            src="crroisant.jpeg.jpeg" />
+                    </div>
+                    <h3 class="text-xl font-bold text-primary">Artisan Croissant</h3>
+                    <p class="text-on-surface-variant">Buttery, flaky, and baked fresh daily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- USP Section -->
+    <section class="py-24 px-8 bg-primary text-on-primary" id="usp">
+        <div class="max-w-[1440px] mx-auto grid md:grid-cols-3 gap-12 text-center">
+            <div class="flex flex-col items-center gap-4">
+                <span class="material-symbols-outlined text-4xl">wifi</span>
+                <h3 class="text-xl font-bold">High-Speed WiFi</h3>
+                <p class="opacity-80">Pusat produktivitas bagi digital nomad dan mahasiswa yang mencari kafe di Madiun
+                    untuk WFH.</p>
+            </div>
+            <div class="flex flex-col items-center gap-4">
+                <span class="material-symbols-outlined text-4xl">eco</span>
+                <h3 class="text-xl font-bold">Zen Atmosphere</h3>
+                <p class="opacity-80">Desain minimalis Jepang untuk ketenangan dan fokus maksimal.</p>
+            </div>
+            <div class="flex flex-col items-center gap-4">
+                <span class="material-symbols-outlined text-4xl">coffee_maker</span>
+                <h3 class="text-xl font-bold">Artisan Beans</h3>
+                <p class="opacity-80">Biji kopi pilihan yang diproses secara etis dan disangrai sempurna.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="py-24 px-8 bg-surface-container-low" id="testimonials">
+        <div class="max-w-[1440px] mx-auto">
+            <h2 class="text-3xl font-headline font-bold text-primary text-center mb-16">Voices of Ueno</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <blockquote class="p-8 bg-surface rounded">
+                    <p class="italic text-on-surface-variant mb-6 text-lg">"The best place to work in Madiun. The WiFi
+                        is fast, and the coffee is actually specialty grade. A hidden gem."</p>
+                    <cite class="font-bold text-primary not-italic">— Adit, Freelance Designer</cite>
+                </blockquote>
+                <blockquote class="p-8 bg-surface rounded">
+                    <p class="italic text-on-surface-variant mb-6 text-lg">"I love the minimalist vibes. It's so quiet
+                        and peaceful compared to other cafes. Highly recommend the V60."</p>
+                    <cite class="font-bold text-primary not-italic">— Maya, Student</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <!-- Location Section -->
+    <section class="py-24 px-8 bg-surface" id="location">
+        <div class="max-w-[1440px] mx-auto grid md:grid-cols-2 gap-16">
+            <div class="space-y-8">
+                <h2 class="text-4xl font-headline font-bold text-primary">Find Us</h2>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">location_on</span>
+                        <div>
+                            <p class="font-bold">Jl. Pahlawan No.42</p>
+                            <p class="text-on-surface-variant">Madiun, Jawa Timur 63121</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">schedule</span>
+                        <div>
+                            <p class="font-bold">Jam Operasional</p>
+                            <p class="text-on-surface-variant">Setiap Hari: 09:00 — 22:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-on-primary rounded font-bold transition-opacity hover:opacity-90"
+                        href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
+                        Hubungi WhatsApp <span class="material-symbols-outlined text-xl">chat</span>
+                    </a>
+                    <a class="inline-flex items-center justify-center gap-2 px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold hover:bg-surface-variant transition-colors"
+                        href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
+                        Buka di Google Maps <span class="material-symbols-outlined text-xl">map</span>
+                    </a>
+                </div>
+            </div>
+            <div class="h-[400px] bg-surface-container rounded overflow-hidden shadow-sm">
+                <iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15816.65798934522!2d111.5173357!3d-7.6253457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79befa78631b51%3A0x630453f6630f5763!2sMadiun%2C%20Madiun%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1715852345678!5m2!1sen!2sid"
+                    style="border:0;" width="100%"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="py-24 px-8 bg-surface-container-low" id="faq">
+        <div class="max-w-[800px] mx-auto">
+            <h2 class="text-3xl font-headline font-bold text-primary text-center mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="p-6 bg-surface rounded">
+                    <h3 class="font-bold text-primary mb-2">Apakah tersedia WiFi kencang?</h3>
+                    <p class="text-on-surface-variant">Ya, kami menyediakan internet serat optik berkecepatan tinggi
+                        khusus bagi pelanggan yang ingin bekerja dari kafe di Madiun.</p>
+                </div>
+                <div class="p-6 bg-surface rounded">
+                    <h3 class="font-bold text-primary mb-2">Bisakah memesan tempat untuk meeting?</h3>
+                    <p class="text-on-surface-variant">Saat ini kami menggunakan sistem siapa cepat dia dapat, namun
+                        Anda bisa menghubungi kami via WhatsApp untuk pertanyaan rombongan besar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-surface-container-low w-full py-12 px-8">
+        <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-lg font-bold text-primary">
+                Ueno Coffee
+            </div>
+            <div
+                class="flex flex-wrap justify-center gap-6 font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em]">
+                <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Privacy</a>
+                <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Brewing Guides</a>
+                <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Sustainability</a>
+                <a class="text-primary font-bold hover:opacity-80 transition-colors"
+                    href="https://wa.me/08112701000">WhatsApp Concierge</a>
+            </div>
+            <div class="font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em] text-on-surface-variant/70">
+                © 2024 Ueno Coffee. Pilihan Kafe di Madiun. The Curated Breath.
+            </div>
+        </div>
+    </footer>
+    ```
+</body>
+
+</html>
+=======
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-[#fbf9f5]/70 backdrop-blur-xl transition-all duration-300">
-<div class="flex justify-between items-center px-8 py-6 max-w-[1440px] mx-auto">
-<a class="text-2xl font-black tracking-tighter text-primary" href="#">
+    <div class="flex justify-between items-center px-8 py-6 max-w-[1440px] mx-auto">
+        <a class="text-2xl font-black tracking-tighter text-primary" href="#hero">
             Ueno Coffee
         </a>
-<div class="hidden md:flex items-center gap-8 font-headline font-bold tracking-tight text-primary">
-<a class="text-primary border-b-2 border-primary pb-1" href="#about">Experience</a>
-<a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300" href="#products">Menu</a>
-<a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300" href="#philosophy">Philosophy</a>
-<a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300" href="#location">Locate</a>
-</div>
-<div class="flex items-center gap-6">
-<a class="hidden md:flex items-center justify-center px-6 py-3 bg-primary text-on-primary font-bold tracking-tight rounded hover:opacity-80 transition-opacity duration-300" href="#location">Visit Us</a>
-<button class="text-primary hover:opacity-80 transition-opacity duration-300">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">shopping_bag</span>
-</button>
-</div>
-</div>
+        <div class="hidden md:flex items-center gap-8 font-headline font-bold tracking-tight text-primary">
+            <a class="text-primary border-b-2 border-primary pb-1" href="#hero">Experience</a>
+            <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                href="#products">Menu</a>
+            <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                href="#philosophy">Philosophy</a>
+            <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                href="#location">Locate</a>
+            <a class="text-primary-container/60 hover:text-primary transition-colors hover:opacity-80 transition-opacity duration-300"
+                href="#faq">FAQ</a>
+        </div>
+        <div class="flex items-center gap-6">
+            <a class="hidden md:flex items-center justify-center px-6 py-3 bg-primary text-on-primary font-bold tracking-tight rounded hover:opacity-80 transition-opacity duration-300"
+                href="#location">Visit Us</a>
+            <button class="text-primary hover:opacity-80 transition-opacity duration-300">
+                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">shopping_bag</span>
+            </button>
+        </div>
+    </div>
 </nav>
 <!-- Hero Section -->
-<section class="relative pt-32 pb-24 md:pt-48 md:pb-32 px-8 overflow-hidden">
-<div class="max-w-[1440px] mx-auto grid md:grid-cols-12 gap-12 items-center">
-<div class="md:col-span-6 z-10 flex flex-col gap-8">
-<div>
-<span class="inline-block text-label-sm uppercase tracking-[0.05em] text-on-surface-variant mb-4 font-bold bg-surface-container-low px-3 py-1 rounded">
-                    Tempat Nongkrong Kafe di Madiun
+<section class="relative pt-32 pb-24 md:pt-48 md:pb-32 px-8 overflow-hidden" id="hero">
+    <div class="max-w-[1440px] mx-auto grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-6 z-10 flex flex-col gap-8">
+            <div>
+                <span
+                    class="inline-block text-label-sm uppercase tracking-[0.05em] text-on-surface-variant mb-4 font-bold bg-surface-container-low px-3 py-1 rounded">
+                    Kafe di Madiun
                 </span>
-<h1 class="text-5xl md:text-[3.5rem] leading-[1.1] font-headline font-extrabold tracking-[-0.02em] text-primary">
-                    Ueno Coffee: Pilihan Kafe di Madiun Terbaik.
+                <h1
+                    class="text-5xl md:text-[3.5rem] leading-[1.1] font-headline font-extrabold tracking-[-0.02em] text-primary">
+                    Ueno Coffee: Sudut Tenang di Jantung Kota.
                 </h1>
-</div>
-<p class="text-lg md:text-xl text-on-surface-variant font-body leading-relaxed max-w-xl">
-                Temukan harmoni dan ketenangan di tengah kota. Ueno menawarkan suasana Japanese Minimalist, wifi kencang, and racikan kopi artisan untuk pengalaman ngopi terbaik di Madiun.
+            </div>
+            <p class="text-lg md:text-xl text-on-surface-variant font-body leading-relaxed max-w-xl">
+                Minimalis dalam ruang, maksimal dalam rasa. Your daily escape for a perfect brew in Madiun.
             </p>
-<div class="flex flex-col sm:flex-row gap-4 mt-4">
-<a class="inline-flex items-center justify-center px-8 py-4 bg-primary text-on-primary rounded font-bold tracking-tight hover:opacity-80 transition-all shadow-[0_12px_32px_rgba(27,28,26,0.06)]" href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
+            <div class="flex flex-col sm:flex-row gap-4 mt-4">
+                <a class="inline-flex items-center justify-center px-8 py-4 bg-primary text-on-primary rounded font-bold tracking-tight hover:opacity-80 transition-all shadow-[0_12px_32px_rgba(27,28,26,0.06)]"
+                    href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
                     Hubungi via WhatsApp
                 </a>
-<a class="inline-flex items-center justify-center px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold tracking-tight hover:bg-surface-variant transition-colors" href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
+                <a class="inline-flex items-center justify-center px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold tracking-tight hover:bg-surface-variant transition-colors"
+                    href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
                     Lihat Rute
                 </a>
-</div>
-</div>
-<div class="md:col-span-6 relative h-[500px] md:h-[700px] rounded overflow-hidden shadow-[0_24px_48px_rgba(27,28,26,0.08)]">
-<img alt="Fasad depan Ueno Coffee, pilihan kafe di Madiun dengan desain minimalis Jepang" class="w-full h-full object-cover" src="uenobg.jpeg.jpeg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
-</div>
-</div>
+            </div>
+        </div>
+        <div
+            class="md:col-span-6 relative h-[500px] md:h-[700px] rounded overflow-hidden shadow-[0_24px_48px_rgba(27,28,26,0.08)]">
+            <img alt="Fasad depan Ueno Coffee, pilihan kafe di Madiun dengan desain minimalis Jepang"
+                class="w-full h-full object-cover" src="uenobg.jpeg.jpeg" />
+            <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+        </div>
+    </div>
 </section>
 <!-- About Section -->
 <section class="py-24 px-8 bg-surface-container-low" id="philosophy">
-<div class="max-w-[1440px] mx-auto">
-<div class="grid md:grid-cols-2 gap-16 items-center mb-20">
-<div>
-<h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-8">
+    <div class="max-w-[1440px] mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+            <div>
+                <h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-8">
                     Filosofi The Curated Breath.
                 </h2>
-<div class="space-y-6 text-lg text-on-surface-variant">
-<p>
-                        Lebih dari sekadar <strong>tempat ngopi Madiun</strong>, Ueno Coffee lahir dari apresiasi mendalam terhadap ruang dan waktu. Kami merancang setiap sudut kafe kami di Madiun sebagai tempat untuk jeda sejenak dari hiruk-pikuk.
+                <div class="space-y-6 text-lg text-on-surface-variant">
+                    <p>
+                        Lebih dari sekadar <strong>tempat ngopi Madiun</strong>, Ueno Coffee lahir dari apresiasi
+                        mendalam terhadap ruang dan waktu. Kami merancang setiap sudut kafe kami di Madiun sebagai
+                        tempat untuk jeda sejenak dari hiruk-pikuk.
                     </p>
-<p>
-                        Dikenal sebagai salah satu <strong>kafe hits Madiun</strong>, kami memadukan estetika minimalis dengan kehangatan khas kota ini. Ruang yang tenang, cahaya alami, dan kopi enak Madiun menjadi sajian utama kami.
+                    <p>
+                        Dikenal sebagai salah satu <strong>kafe hits Madiun</strong>, kami memadukan estetika
+                        minimalis dengan kehangatan khas kota ini. Ruang yang tenang, cahaya alami, dan kopi enak
+                        Madiun menjadi sajian utama kami.
                     </p>
-</div>
-</div>
-<div class="grid grid-cols-2 gap-4">
-<div class="space-y-4">
-<div class="aspect-[3/4] rounded overflow-hidden bg-surface">
-<img alt="Interior tenang kafe di Madiun dengan pencahayaan alami dan desain kayu" class="w-full h-full object-cover" src="tempat.jpeg.jpeg"/>
-</div>
-<div class="aspect-square rounded overflow-hidden bg-surface">
-<img alt="Signature iced matcha dari Ueno, rekomendasi kafe di Madiun" class="w-full h-full object-cover" src="matcha2.jpeg.jpeg"/>
-</div>
-</div>
-<div class="aspect-[3/5] rounded overflow-hidden bg-surface mt-12">
-<img alt="Berbagai pilihan minuman artisan di Ueno, kafe di Madiun yang hits" class="w-full h-full object-cover" src="matcha1.jpeg.jpeg"/>
-</div>
-</div>
-</div>
-</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="space-y-4">
+                    <div class="aspect-[3/4] rounded overflow-hidden bg-surface">
+                        <img alt="Interior tenang kafe di Madiun dengan pencahayaan alami dan desain kayu"
+                            class="w-full h-full object-cover" src="makanan.-ueno.jpg" />
+                    </div>
+                    <div class="aspect-square rounded overflow-hidden bg-surface">
+                        <img alt="Signature iced matcha dari Ueno, rekomendasi kafe di Madiun"
+                            class="w-full h-full object-cover" src="tempat.jpeg.jpeg" />
+                    </div>
+                </div>
+                <div class="aspect-[3/5] rounded overflow-hidden bg-surface mt-12">
+                    <img alt="Berbagai pilihan minuman artisan di Ueno, kafe di Madiun yang hits"
+                        class="w-full h-full object-cover" src="matcha1.jpeg.jpeg" />
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Menu Section -->
 <section class="py-24 px-8 bg-surface" id="products">
-<div class="max-w-[1440px] mx-auto">
-<div class="text-center mb-16">
-<h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-4">Our Signature Menu</h2>
-<p class="text-on-surface-variant max-w-2xl mx-auto">Kopi artisan dan pastry pilihan, dikurasi khusus untuk waktu istirahat terbaik Anda di kafe di Madiun.</p>
-</div>
-<div class="grid md:grid-cols-3 gap-8">
-<div class="group">
-<div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
-<img alt="Ueno Signature Latte, sajian kopi lembut di kafe di Madiun" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="coffee.jpeg.jpeg"/>
-</div>
-<h3 class="text-xl font-bold text-primary">Ueno Signature Latte</h3>
-<p class="text-on-surface-variant">Smooth, creamy, and perfectly balanced.</p>
-</div>
-<div class="group">
-<div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
-<img alt="Mesin espresso profesional untuk hasil kopi terbaik di kafe di Madiun" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="manualbrew.jpeg.jpeg"/>
-</div>
-<h3 class="text-xl font-bold text-primary">V60 Manual Brew</h3>
-<p class="text-on-surface-variant">Highlighting the unique notes of local beans.</p>
-</div>
-<div class="group">
-<div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
-<img alt="Artisan Croissant renyah, pasangan kopi sempurna di kafe di Madiun" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="crroisant.jpeg.jpeg"/>
-</div>
-<h3 class="text-xl font-bold text-primary">Artisan Croissant</h3>
-<p class="text-on-surface-variant">Buttery, flaky, and baked fresh daily.</p>
-</div>
-</div>
-</div>
+    <div class="max-w-[1440px] mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-headline font-bold text-primary tracking-tight mb-4">3 Our Signature
+                Menu</h2>
+            <p class="text-on-surface-variant max-w-2xl mx-auto">Minuman, Makanan dan Pastry Pilihan Terbaik.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="group">
+                <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                    <img alt="Ueno Signature Latte, sajian kopi lembut di kafe di Madiun"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        src="matchalatte.jpg" />
+                </div>
+                <h3 class="text-xl font-bold text-primary">Ueno Signature Latte</h3>
+                <p class="text-on-surface-variant">Smooth, creamy, and perfectly balanced.</p>
+            </div>
+            <div class="group">
+                <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                    <img alt="Mesin espresso profesional untuk hasil kopi terbaik di kafe di Madiun"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        src="ricebowl.jpg" />
+                </div>
+                <h3 class="text-xl font-bold text-primary">Japanese Rice Bowl</h3>
+                <p class="text-on-surface-variant">Fresh ingredients, authentic flavors, and the perfect balance of
+                    savory goodness.</p>
+            </div>
+            <div class="group">
+                <div class="aspect-square overflow-hidden rounded mb-4 bg-surface-container">
+                    <img alt="Artisan Croissant renyah, pasangan kopi sempurna di kafe di Madiun"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        src="crroisant.jpeg.jpeg" />
+                </div>
+                <h3 class="text-xl font-bold text-primary">Artisan Croissant</h3>
+                <p class="text-on-surface-variant">Buttery, flaky, and baked fresh daily.</p>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- USP Section -->
 <section class="py-24 px-8 bg-primary text-on-primary" id="usp">
-<div class="max-w-[1440px] mx-auto grid md:grid-cols-3 gap-12 text-center">
-<div class="flex flex-col items-center gap-4">
-<span class="material-symbols-outlined text-4xl">wifi</span>
-<h3 class="text-xl font-bold">High-Speed WiFi</h3>
-<p class="opacity-80">Pusat produktivitas bagi digital nomad dan mahasiswa yang mencari kafe di Madiun untuk WFH.</p>
-</div>
-<div class="flex flex-col items-center gap-4">
-<span class="material-symbols-outlined text-4xl">eco</span>
-<h3 class="text-xl font-bold">Zen Atmosphere</h3>
-<p class="opacity-80">Desain minimalis Jepang untuk ketenangan dan fokus maksimal.</p>
-</div>
-<div class="flex flex-col items-center gap-4">
-<span class="material-symbols-outlined text-4xl">coffee_maker</span>
-<h3 class="text-xl font-bold">Artisan Beans</h3>
-<p class="opacity-80">Biji kopi pilihan yang diproses secara etis dan disangrai sempurna.</p>
-</div>
-</div>
+    <div class="max-w-[1440px] mx-auto grid md:grid-cols-3 gap-12 text-center">
+        <div class="flex flex-col items-center gap-4">
+            <span class="material-symbols-outlined text-4xl">wifi</span>
+            <h3 class="text-xl font-bold">High-Speed WiFi</h3>
+            <p class="opacity-80">Pusat produktivitas bagi digital nomad dan mahasiswa yang mencari kafe di Madiun
+                untuk WFH.</p>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+            <span class="material-symbols-outlined text-4xl">eco</span>
+            <h3 class="text-xl font-bold">Zen Atmosphere</h3>
+            <p class="opacity-80">Desain minimalis Jepang untuk ketenangan dan fokus maksimal.</p>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+            <span class="material-symbols-outlined text-4xl">coffee_maker</span>
+            <h3 class="text-xl font-bold">Artisan Beans</h3>
+            <p class="opacity-80">Biji kopi pilihan yang diproses secara etis dan disangrai sempurna.</p>
+        </div>
+    </div>
 </section>
 <!-- Testimonials Section -->
 <section class="py-24 px-8 bg-surface-container-low" id="testimonials">
-<div class="max-w-[1440px] mx-auto">
-<h2 class="text-3xl font-headline font-bold text-primary text-center mb-16">Voices of Ueno</h2>
-<div class="grid md:grid-cols-2 gap-8">
-<blockquote class="p-8 bg-surface rounded">
-<p class="italic text-on-surface-variant mb-6 text-lg">"The best place to work in Madiun. The WiFi is fast, and the coffee is actually specialty grade. A hidden gem."</p>
-<cite class="font-bold text-primary not-italic">— Adit, Freelance Designer</cite>
-</blockquote>
-<blockquote class="p-8 bg-surface rounded">
-<p class="italic text-on-surface-variant mb-6 text-lg">"I love the minimalist vibes. It's so quiet and peaceful compared to other cafes. Highly recommend the V60."</p>
-<cite class="font-bold text-primary not-italic">— Maya, Student</cite>
-</blockquote>
-</div>
-</div>
+    <div class="max-w-[1440px] mx-auto">
+        <h2 class="text-3xl font-headline font-bold text-primary text-center mb-16">Voices of Ueno</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <blockquote class="p-8 bg-surface rounded">
+                <p class="italic text-on-surface-variant mb-6 text-lg">"The best place to work in Madiun. The WiFi
+                    is fast, and the coffee is actually specialty grade. A hidden gem."</p>
+                <cite class="font-bold text-primary not-italic">— Adit, Freelance Designer</cite>
+            </blockquote>
+            <blockquote class="p-8 bg-surface rounded">
+                <p class="italic text-on-surface-variant mb-6 text-lg">"I love the minimalist vibes. It's so quiet
+                    and peaceful compared to other cafes. Highly recommend the V60."</p>
+                <cite class="font-bold text-primary not-italic">— Maya, Student</cite>
+            </blockquote>
+        </div>
+    </div>
 </section>
 <!-- Location Section -->
 <section class="py-24 px-8 bg-surface" id="location">
-<div class="max-w-[1440px] mx-auto grid md:grid-cols-2 gap-16">
-<div class="space-y-8">
-<h2 class="text-4xl font-headline font-bold text-primary">Find Us</h2>
-<div class="space-y-4">
-<div class="flex gap-4">
-<span class="material-symbols-outlined text-primary">location_on</span>
-<div>
-<p class="font-bold">Jl. Pahlawan No.42</p>
-<p class="text-on-surface-variant">Madiun, Jawa Timur 63121</p>
-</div>
-</div>
-<div class="flex gap-4">
-<span class="material-symbols-outlined text-primary">schedule</span>
-<div>
-<p class="font-bold">Jam Operasional</p>
-<p class="text-on-surface-variant">Setiap Hari: 09:00 — 22:00</p>
-</div>
-</div>
-</div>
-<div class="flex flex-col sm:flex-row gap-4">
-<a class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-on-primary rounded font-bold transition-opacity hover:opacity-90" href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
-                        Hubungi WhatsApp <span class="material-symbols-outlined text-xl">chat</span>
-</a>
-<a class="inline-flex items-center justify-center gap-2 px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold hover:bg-surface-variant transition-colors" href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
-                        Buka di Google Maps <span class="material-symbols-outlined text-xl">map</span>
-</a>
-</div>
-</div>
-<div class="h-[400px] bg-surface-container rounded overflow-hidden shadow-sm">
-<iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15816.65798934522!2d111.5173357!3d-7.6253457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79befa78631b51%3A0x630453f6630f5763!2sMadiun%2C%20Madiun%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1715852345678!5m2!1sen!2sid" style="border:0;" width="100%"></iframe>
-</div>
-</div>
+    <div class="max-w-[1440px] mx-auto grid md:grid-cols-2 gap-16">
+        <div class="space-y-8">
+            <h2 class="text-4xl font-headline font-bold text-primary">Find Us</h2>
+            <div class="space-y-4">
+                <div class="flex gap-4">
+                    <span class="material-symbols-outlined text-primary">location_on</span>
+                    <div>
+                        <p class="font-bold">Jl. Pahlawan No.42</p>
+                        <p class="text-on-surface-variant">Madiun, Jawa Timur 63121</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <span class="material-symbols-outlined text-primary">schedule</span>
+                    <div>
+                        <p class="font-bold">Jam Operasional</p>
+                        <p class="text-on-surface-variant">Setiap Hari: 09:00 — 22:00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-on-primary rounded font-bold transition-opacity hover:opacity-90"
+                    href="https://wa.me/08112701000" rel="noopener noreferrer" target="_blank">
+                    Hubungi WhatsApp <span class="material-symbols-outlined text-xl">chat</span>
+                </a>
+                <a class="inline-flex items-center justify-center gap-2 px-8 py-4 border border-outline-variant/30 text-primary rounded font-bold hover:bg-surface-variant transition-colors"
+                    href="https://maps.app.goo.gl/rR26YRgatY6natp68" rel="noopener noreferrer" target="_blank">
+                    Buka di Google Maps <span class="material-symbols-outlined text-xl">map</span>
+                </a>
+            </div>
+        </div>
+        <div class="h-[400px] bg-surface-container rounded overflow-hidden shadow-sm">
+            <iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.1444158428843!2d111.51996777587841!3d-7.624446475390771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bef771691a61%3A0x7d6f5f3e2305387b!2sJl.%20Pahlawan%20No.42%2C%20Madiun%20Lor%2C%20Kec.%20Manguharjo%2C%20Kota%20Madiun%2C%20Jawa%20Timur%2063122!5e0!3m2!1sen!2sid!4v1715852345678!5m2!1sen!2sid"
+                style="border:0;" width="100%"></iframe>
+        </div>
+    </div>
 </section>
 <!-- FAQ Section -->
 <section class="py-24 px-8 bg-surface-container-low" id="faq">
-<div class="max-w-[800px] mx-auto">
-<h2 class="text-3xl font-headline font-bold text-primary text-center mb-12">Frequently Asked Questions</h2>
-<div class="space-y-6">
-<div class="p-6 bg-surface rounded">
-<h3 class="font-bold text-primary mb-2">Apakah tersedia WiFi kencang?</h3>
-<p class="text-on-surface-variant">Ya, kami menyediakan internet serat optik berkecepatan tinggi khusus bagi pelanggan yang ingin bekerja dari kafe di Madiun.</p>
-</div>
-<div class="p-6 bg-surface rounded">
-<h3 class="font-bold text-primary mb-2">Bisakah memesan tempat untuk meeting?</h3>
-<p class="text-on-surface-variant">Saat ini kami menggunakan sistem siapa cepat dia dapat, namun Anda bisa menghubungi kami via WhatsApp untuk pertanyaan rombongan besar.</p>
-</div>
-</div>
-</div>
+    <div class="max-w-[800px] mx-auto">
+        <h2 class="text-3xl font-headline font-bold text-primary text-center mb-12">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+            <div class="p-6 bg-surface rounded">
+                <h3 class="font-bold text-primary mb-2">Apakah tersedia WiFi kencang?</h3>
+                <p class="text-on-surface-variant">Ya, kami menyediakan internet serat optik berkecepatan tinggi
+                    khusus bagi pelanggan yang ingin bekerja dari kafe di Madiun.</p>
+            </div>
+            <div class="p-6 bg-surface rounded">
+                <h3 class="font-bold text-primary mb-2">Bisakah memesan tempat untuk meeting?</h3>
+                <p class="text-on-surface-variant">Saat ini kami menggunakan sistem siapa cepat dia dapat, namun
+                    Anda bisa menghubungi kami via WhatsApp untuk pertanyaan rombongan besar.</p>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Footer -->
 <footer class="bg-surface-container-low w-full py-12 px-8">
-<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-<div class="text-lg font-bold text-primary">
+    <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="text-lg font-bold text-primary">
             Ueno Coffee
         </div>
-<div class="flex flex-wrap justify-center gap-6 font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em]">
-<a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Privacy</a>
-<a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Brewing Guides</a>
-<a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Sustainability</a>
-<a class="text-primary font-bold hover:opacity-80 transition-colors" href="https://wa.me/08112701000">WhatsApp Concierge</a>
-</div>
-<div class="font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em] text-on-surface-variant/70">
+        <div class="flex flex-wrap justify-center gap-6 font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em]">
+            <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Privacy</a>
+            <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Brewing Guides</a>
+            <a class="text-on-surface-variant/70 hover:text-primary transition-colors" href="#">Sustainability</a>
+            <a class="text-primary font-bold hover:opacity-80 transition-colors"
+                href="https://wa.me/08112701000">WhatsApp Concierge</a>
+        </div>
+        <div class="font-['Inter'] text-[0.6875rem] uppercase tracking-[0.05em] text-on-surface-variant/70">
             © 2024 Ueno Coffee. Pilihan Kafe di Madiun. The Curated Breath.
         </div>
-</div>
+    </div>
 </footer>
-```</body></html>
+</body>
+
+</html>
+>>>>>>> 39c683f (update)
